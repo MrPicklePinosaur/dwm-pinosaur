@@ -6,6 +6,8 @@ static const unsigned int gappx     = 5;        /* gaps between windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
+static const int vertpad            = 5;       /* vertical padding of bar */
+static const int sidepad            = 5;       /* horizontal padding of bar */
 static const char *fonts[]          = { "Source Code Pro:size=12" };
 static const char dmenufont[]       = "Source Code Pro:size=12";
 static char normbgcolor[]           = "#222222";
