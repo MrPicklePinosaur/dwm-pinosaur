@@ -11,6 +11,12 @@ The following patches are applied:
 
 ### Requirements
 In order to build dwm you need the Xlib header files.
+- libx11-dev
+- libxft-dev
+- libxinerama-dev
+- libxcv-dev
+- libx11-xcb-dev
+- libxcb-res0-dev
 
 ### Installation (make)
 Edit config.mk to match your local setup (dwm is installed into
